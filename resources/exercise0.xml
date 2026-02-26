@@ -35,6 +35,11 @@
       <geom name="box" type="box" size="0.25 0.25 0.25" rgba="0.8 0.4 0.1 1" mass="0.2"/>
     </body>
 
+    <body name="static_sphere" pos="1 0 2">
+      <freejoint/>
+      <geom name="sphere" type="sphere" size="0.25" rgba="0.1 0.4 0.8 1" mass="0.2"/>
+    </body>
+
     <!-- Free-falling objects -->
     <!-- TODO -->
 
